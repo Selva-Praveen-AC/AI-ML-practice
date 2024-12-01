@@ -40,3 +40,9 @@ for name,clf in zip(names,classifications):
  
     print(f"{name} - Mean Absolute Error : {mean_absolute_error(y_test,c_predict)}")
     print(f"{name} - R2 Score : {r2_score(y_test,c_predict)}")
+
+#Output:
+Super vector regression - Mean Absolute Error : 4600.055870664164
+Super vector regression - R2 Score : -1.8304038599699686
+Logistic Regression - Mean Absolute Error : 5600.0
+Logistic Regression - R2 Score : -2.2110726643598615

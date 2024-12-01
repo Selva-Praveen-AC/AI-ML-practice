@@ -105,3 +105,99 @@ print(classification_report(y_test,y_predict))
 N=y_test.shape[0]
 C=(y_test==y_predict).sum()
 print(f"Total value predicted : {N} Predicted labeled value : {C}")
+
+#Output:
+                  is cancer  is healthy
+predicted cancer         40           8
+predicted health          0          66 
+
+              precision    recall  f1-score   support
+
+           0       1.00      0.83      0.91        48
+           1       0.89      1.00      0.94        66
+
+    accuracy                           0.93       114
+   macro avg       0.95      0.92      0.93       114
+weighted avg       0.94      0.93      0.93       114
+
+                  is cancer  is healthy
+predicted cancer         44           4
+predicted health          1          65 
+
+              precision    recall  f1-score   support
+
+           0       0.98      0.92      0.95        48
+           1       0.94      0.98      0.96        66
+
+    accuracy                           0.96       114
+   macro avg       0.96      0.95      0.95       114
+weighted avg       0.96      0.96      0.96       114
+
+                  is cancer  is healthy
+predicted cancer         42           6
+predicted health          1          65 
+
+              precision    recall  f1-score   support
+
+           0       0.98      0.88      0.92        48
+           1       0.92      0.98      0.95        66
+
+    accuracy                           0.94       114
+   macro avg       0.95      0.93      0.94       114
+weighted avg       0.94      0.94      0.94       114
+
+                  is cancer  is healthy
+predicted cancer         44           4
+predicted health          0          66 
+
+              precision    recall  f1-score   support
+
+           0       1.00      0.92      0.96        48
+           1       0.94      1.00      0.97        66
+
+    accuracy                           0.96       114
+   macro avg       0.97      0.96      0.96       114
+weighted avg       0.97      0.96      0.96       114
+
+                  is cancer  is healthy
+predicted cancer         44           4
+predicted health          2          64 
+
+              precision    recall  f1-score   support
+
+           0       0.96      0.92      0.94        48
+           1       0.94      0.97      0.96        66
+
+    accuracy                           0.95       114
+   macro avg       0.95      0.94      0.95       114
+weighted avg       0.95      0.95      0.95       114
+
+Total value predicted : 114 Predicted labeled value : 108
+                  is cancer  is healthy
+predicted cancer         45           3
+predicted health          0          66 
+
+              precision    recall  f1-score   support
+
+           0       1.00      0.94      0.97        48
+           1       0.96      1.00      0.98        66
+
+    accuracy                           0.97       114
+   macro avg       0.98      0.97      0.97       114
+weighted avg       0.97      0.97      0.97       114
+
+Total value predicted : 114 Predicted labeled value : 111
+                  is cancer  is healthy
+predicted cancer         43           5
+predicted health          2          64 
+
+              precision    recall  f1-score   support
+
+           0       0.96      0.90      0.92        48
+           1       0.93      0.97      0.95        66
+
+    accuracy                           0.94       114
+   macro avg       0.94      0.93      0.94       114
+weighted avg       0.94      0.94      0.94       114
+
+Total value predicted : 114 Predicted labeled value : 107 
